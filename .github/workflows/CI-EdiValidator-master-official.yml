@@ -103,4 +103,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: MSIX Package
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
+        path: ${{ env.Wap_Project_Directory }}\bin\Release\net5.0-windows
